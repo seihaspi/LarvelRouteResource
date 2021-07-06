@@ -1,0 +1,10 @@
+- create project 
+- create database in phpmysql
+- connection
+- create create controller :php artisan make:controller PostController -- resource
+- create model : php artisan make:model Post -mf
+- php artisan tinker
+ >>Post::facrory()->cout(20)->make();
+ >>Post::facrory()->cout(20)->create();
+
+- php artisan rout:list
